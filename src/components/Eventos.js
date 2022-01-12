@@ -79,9 +79,17 @@ export class EventosES7 extends Component {
     }
 }
 
-function Boton(props) {
-    return(<button onClick={props.myOnClick}>Boton hecho componente</button>)
-}
+/* function Boton(props) {
+  return <button onClick={props.myOnClick}>Botón hecho componente</button>;
+} */
+
+/* const Boton = (props) => (
+  <button onClick={props.myOnClick}>Botón hecho componente</button>
+); */
+
+const Boton = ({ myOnClick }) => (
+    <button onClick={myOnClick}>Botón hecho componente</button>
+  );
 
 export class MasSobreEventos extends Component {
     handleClick = (e, mensaje) => {
@@ -98,7 +106,11 @@ export class MasSobreEventos extends Component {
                 <h2>Mas Sobre Eventos</h2>
                 <button
                     onClick={(e) =>
-                        this.handleClick(e, 'Hola, pasando parametro desde un evento')}>Saludar</button>
+                        this.handleClick(e, 'Hola, pasando parametro desde un evento')
+                        }
+                    >
+                        Saludar
+                </button>
                 
                 {/*Evento Personalizado para que pueda imprimir ese mensaje */}
                 {/*<Boton onClick={(e) =>
