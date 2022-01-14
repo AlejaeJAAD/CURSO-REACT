@@ -1,8 +1,8 @@
 // Componente basado en clases
-import React, {Component} from 'react';
+import React, { Component } from "react";
 
 //Funcion expresada
-const Componente = props => <h2>{props.msg}</h2>
+const Componente = (props) => <h2>{props.msg}</h2>;
 
 /*
 class Componente extends Component {
@@ -19,4 +19,4 @@ function Componente(props) {
 }
 */
 
-export default Componente
+export default Componente;
