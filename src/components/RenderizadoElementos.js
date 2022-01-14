@@ -19,7 +19,7 @@ export default class RenderizadoElementos extends Component {
     };
   }
   render() {
-    console.log(data, "DATA");
+    //console.log(data, "DATA");
     return (
       <div>
         <h2>Renderizado de Elementos</h2>

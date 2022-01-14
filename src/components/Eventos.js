@@ -13,16 +13,16 @@ export class EventosES6 extends Component {
   }
 
   sumar(e) {
-    console.log("Sumando");
-    console.log(this);
+    //console.log("Sumando");
+    //console.log(this);
     this.setState({
       contador: this.state.contador + 1,
     });
   }
 
   restar(e) {
-    console.log("Restar");
-    console.log(this);
+    //console.log("Restar");
+    //console.log(this);
     this.setState({
       contador: this.state.contador - 1,
     });
@@ -50,16 +50,16 @@ export class EventosES7 extends Component {
 
   //Arrow functions
   sumar = (e) => {
-    console.log("Sumando");
-    console.log(this);
+    //console.log("Sumando");
+    //console.log(this);
     this.setState({
       contador: this.state.contador + 1,
     });
   };
 
   restar = (e) => {
-    console.log("Restar");
-    console.log(this);
+    //console.log("Restar");
+    //console.log(this);
     this.setState({
       contador: this.state.contador - 1,
     });
@@ -93,11 +93,11 @@ const Boton = ({ myOnClick }) => (
 
 export class MasSobreEventos extends Component {
   handleClick = (e, mensaje) => {
-    console.log(e);
-    console.log(e.nativeEvent);
-    console.log(e.target);
-    console.log(e.nativeEvent.target);
-    console.log(mensaje);
+    //console.log(e);
+    //console.log(e.nativeEvent);
+    //console.log(e.target);
+    //console.log(e.nativeEvent.target);
+    //console.log(mensaje);
   };
 
   render() {
