@@ -13,10 +13,11 @@ import ContadorHooks from "./components/ContadorHooks";
 import ScrollHooks from "./components/ScrollHooks";
 import RelojHooks from "./components/RelojHooks";
 import AjaxHooks from "./components/AjaxHooks";
-import "./App.css";
 import HooksPersonalizados from "./components/HooksPersonalizados";
 import Referencias from "./components/Referencias";
 import Formularios from "./components/Formularios";
+import Estilos from "./components/Estilos";
+import "./App.css";
 
 function App() {
   return (
@@ -100,6 +101,8 @@ function App() {
           <br />
           <br />
           <br />
+          <hr />
+          <Estilos />
         </section>
       </header>
     </div>
